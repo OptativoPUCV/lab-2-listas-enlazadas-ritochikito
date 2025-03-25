@@ -84,3 +84,14 @@ Tue, Mar 25, 2025  1:12:26 PM:
  tests:  5|4
 total_score: 25/70
 52efd87
+Tue, Mar 25, 2025  1:13:39 PM: 
+ list.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'lastList':
+list.c:54:20: error: comparison between pointer and integer [-Werror]
+     if (list->tail == 1) return (list->head->data);
+                    ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+aef63c0
