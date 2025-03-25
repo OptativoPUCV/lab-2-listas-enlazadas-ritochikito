@@ -101,3 +101,9 @@ Tue, Mar 25, 2025  1:14:34 PM:
  tests:  5|4
 total_score: 25/70
 5699e54
+Tue, Mar 25, 2025  1:19:02 PM: 
+ list.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+ tests:  6|4
+total_score: 25/70
+e9cf062
